@@ -16,15 +16,15 @@
 #
 
 name "curl"
-default_version "7.23.1"
+default_version "7.35.0"
 
 dependency "zlib"
 dependency "openssl"
 
-source :url => "http://curl.haxx.se/download/curl-7.23.1.tar.gz",
-       :md5 => "8e23151f569fb54afef093ac0695077d"
+source :url => "http://curl.haxx.se/download/curl-7.35.0.tar.gz",
+       :md5 => "f5ae45ed6e86debb721b68392b5ce13c"
 
-relative_path 'curl-7.23.1'
+relative_path 'curl-7.35.0'
 
 build do
   command ["./configure",
